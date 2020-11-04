@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    /* background: red; */
+    margin: 0;
+    font-family: "Poppins","Arial",sans-serif;
+}
+
+.aside {
+    width: 150px;
+    height: 100vh;
+    background-color: #282d32;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+}
+
+.main-content {
+    margin-left: 150px;
+    padding: 10px;
+    min-height: 200vh;
+}
+
+.logo {
+    text-align: center;
+    position: relative;
+}
+
+.logo > p {
+    font-size: 32px;
+    color: #4cb480;
+    text-transform: uppercase;
+}
+
+.logo > p:after {
+    display: block;
+    content: "";
+    width: 50px;
+    height: 4px;
+    background: #4cb480;
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.nav > ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    padding: 20px 0;
+}
+
+.nav > ul li{
+    margin-bottom: 15px;
+}
+
+
+.nav ul li a {
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.nav {
+    position: relative;
+}
+.nav::before, .nav::after {
+    display: block;
+    content: "";
+    width: 90px;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.nav::after {
+    top: auto;
+    bottom: 0;
+}
+
+.search-icon {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.search-icon svg {
+    fill: white;
+    width: 35px;
+}
+.services{
+    display: flex;
+
+}
+
+.services > .item{
+    background-color: #f6f6f6;
+    border-radius: 6px;
+    margin: 0 120px;
+    padding: 0 62px;
+    
+}
+
+.services .item-title{
+   text-align: center;
+}
+
+.services  .item-desc{
+text-align: center;
+}
+
+
+.services  .actions{
+    text-align: center;
+
+    }
+
+    .services .button{
+        background-color: #4cb480; /* Green */
+        border: none;
+        border-radius: 28px;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+    }
