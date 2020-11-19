@@ -92,6 +92,7 @@ body {
 .search-icon {
   padding: 20px 0;
   text-align: center;
+  transform: translateX(5px);
 }
 
 .search-icon svg {
@@ -369,8 +370,6 @@ body {
   .services {
     flex-direction: column;
     align-items: center;
-    height: 200vh;
-    padding-top: 50px;
   }
 
   .services > .item {
@@ -426,7 +425,7 @@ body {
   .description .subtitle,
   .description .text,
   .description .button {
-    margin: 0px;
+    margin: 20px;
   }
 
   .aside {
@@ -436,7 +435,6 @@ body {
     height: auto;
     padding: 10px;
   }
-
 }
 @media screen and (max-width: 1280px) {
   .blog {
@@ -467,8 +465,8 @@ body {
   .services {
     flex-direction: column;
     align-items: center;
-    height: 200vh;
-    padding-top: 50px;
+    height: 250vh;
+    padding-top: 0px;
   }
 
   .services > .item {
