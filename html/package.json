@@ -1,11 +1,11 @@
 {
   "name": "html",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "npx sass --watch -s compressed npx sass ./html/src/scss/main.scss ./html/styles.css "
+    "dev": "npx sass --watch -s compressed src/scss/main.scss ./styles.css"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "description": ""
 }
