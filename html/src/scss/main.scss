@@ -377,16 +377,11 @@ body {
     display: none;
   }
 
-  .hamburger-menu {
-    margin: 20px;
-  }
-
   .menu__btn {
-    display: flex;
     align-items: center;
     position: fixed;
     width: 26px;
-    left: 50%;
+    left: 51%;
     transform: translateX(-50%);
     cursor: pointer;
   }
@@ -409,7 +404,12 @@ body {
     top: 8px;
   }
 
-  #menu__toggle:checked ~ .menu_box {
+  #menu__toggle:checked ~ .nav-menu {
+    visibility: visible;
+    left: 0;
+  }
+
+  .nav-menu {
     visibility: hidden;
   }
 
@@ -479,6 +479,10 @@ body {
   }
 
   .aside {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
     background-color: #282d32;
     position: relative;
