@@ -379,23 +379,24 @@ body {
     display: none;
   }
 
-  .aside .hamburger-menu{
+  .hamburger-menu{
     margin: 20px;
   }
 
- .aside .menu__btn {
+  .menu__btn {
     display: flex; 
     align-items: center;  
     position: fixed;
     width: 26px;
     left: 50%;
     transform: translateX(-50%);
+    cursor: pointer;
     
   }
   
-  .aside .menu__btn > span,
-  .aside .menu__btn > span::before,
-  .aside .menu__btn > span::after {
+  .menu__btn > span,
+  .menu__btn > span::before,
+  .menu__btn > span::after {
     display: block;
     position: absolute;
     width: 100%;
@@ -403,11 +404,11 @@ body {
     background-color: white;
     
   }
-  .aside .menu__btn > span::before {
+  .menu__btn > span::before {
     content: '';
     top: -8px;
   }
-  .aside .menu__btn > span::after {
+  .menu__btn > span::after {
     content: '';
     top: 8px;
   }
