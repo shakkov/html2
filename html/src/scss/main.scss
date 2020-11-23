@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+.wrapper{
+    margin: 0px;
+}
+
 body {
   position: relative;
   scroll-behavior: smooth;
@@ -393,7 +397,7 @@ body {
     align-items: center;
     position:absolute;
     width: 26px;
-    left: 51%;
+    left: 50%;
     transform: translateX(-50%);
     cursor: pointer;
   }
