@@ -49,7 +49,7 @@ body {
   transform: translateX(-50%);
 }
 
-.nav > ul {
+.nav-menu > ul {
   list-style: none;
   text-align: center;
   padding: 0;
@@ -57,23 +57,23 @@ body {
   padding: 20px 0;
 }
 
-.nav > ul li {
+.nav-menu > ul li {
   margin-bottom: 15px;
 }
 
-.nav ul li a {
+.nav-menu ul li a {
   color: #e2e2e2;
   font-size: 18px;
   text-transform: uppercase;
   text-decoration: none;
 }
 
-.nav {
+.nav-menu {
   position: relative;
 }
 
-.nav::before,
-.nav::after {
+.nav-menu::before,
+.nav-menu::after {
   display: block;
   content: "";
   width: 90px;
@@ -85,7 +85,7 @@ body {
   transform: translateX(-50%);
 }
 
-.nav::after {
+.nav-menu::after {
   top: auto;
   bottom: 0;
 }
@@ -368,8 +368,8 @@ body {
 }
 
 @media screen and (max-width: 900px) {
-  .nav::before,
-  .nav::after {
+  .nav-menu::before,
+  .nav-menu::after {
     display: none;
   }
 
