@@ -8,7 +8,7 @@ function styles() {
     return gulp.src('src/scss/main.scss')
         .pipe(sass())
         .pipe(cssnano())
-        .pipe(rename('styles.css'))
+        .pipe(rename('./styles.css'))
         .pipe(gulp.dest('./'))
         .pipe(browserSync.stream());
 }
