@@ -608,16 +608,14 @@ body {
     display: none;
   }
 }
-@media (min-width: 1200px) and (max-width: 1599px)
-{
-  .description{
+@media (min-width: 1200px) and (max-width: 1599px) {
+  .description {
     height: 90vh;
   }
-  .services{
+  .services {
     height: 100vh;
   }
-  .blog{
+  .blog {
     height: 200vh;
   }
 }
-
