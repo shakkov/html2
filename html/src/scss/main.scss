@@ -318,7 +318,7 @@ body {
   flex-direction: column;
   height: 138.4vh;
   padding-left: 8.3%;
-  padding-top: 10.5%;
+  padding-top: 10.3%;
   padding-bottom: 8.3%;
 }
 
@@ -330,6 +330,18 @@ body {
   font-weight: bold;
   color: #353a3f;
   padding-bottom: 1.7%;
+}
+
+.blog .title-blog::before {
+  display: block;
+  content: "";
+  width: 59px;
+  height: 4px;
+  background-color: #4cb480;
+  position: relative;
+  top: -84%;
+  left: 2.5%;
+  transform: translateX(-50%);
 }
 
 .blog .posts {
