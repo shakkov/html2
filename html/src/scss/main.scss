@@ -171,7 +171,7 @@ body {
   height: 4px;
   background-color: #4cb480;
   position: absolute;
-  top: 200px;
+  top: 5.2%;
   left: 31.53%;
   transform: translateX(-50%);
 }
@@ -317,7 +317,7 @@ body {
   justify-content: space-between;
   flex-direction: column;
   height: 138.4vh;
-  padding-left: 120px;
+  padding-left: 8.3%;
   padding-top: 10.5%;
   padding-bottom: 8.3%;
 }
@@ -338,8 +338,8 @@ body {
 }
 
 .blog img {
-  width: 565px;
-  height: 330px;
+  max-width: 565px;
+  max-height: 330px;
   border-radius: 6px;
 }
 
