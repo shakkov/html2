@@ -448,6 +448,7 @@ body {
 
   .description {
     padding: 0px 20px;
+    padding-top: 3%;
     justify-content: space-around;
     height: 75vh;
   }
@@ -491,6 +492,7 @@ body {
     width: 100%;
     height: 324%;
     background: #282d32;
+    right: 0;
   }
 
   .main-content {
@@ -606,5 +608,16 @@ body {
     display: none;
   }
 }
-
+@media (min-width: 1200px)
+{
+  .description{
+    height: 90vh;
+  }
+  .services{
+    height: 100vh;
+  }
+  .blog{
+    height: 200vh;
+  }
+}
 
